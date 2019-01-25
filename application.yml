@@ -14,4 +14,11 @@ spring:
     profiles: test    #测试环境
     application:
         name: microservicecloud-config-mao-test
+
+---
+spring:
+    profiles: prod    #生产环境
+    application:
+        name: microservicecloud-config-mao-prod
+
 # 请保存为UTF-8格式
